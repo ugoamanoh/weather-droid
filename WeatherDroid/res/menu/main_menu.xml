@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:title="Preferences" android:icon="@drawable/ic_menu_preferences"
+		android:id="@+id/item1"></item>
+
+	<item android:title="Refresh" android:icon="@drawable/ic_menu_refresh"
+		android:id="@+id/item2"></item>
+
+	<item android:title="Close" android:icon="@drawable/ic_menu_close_clear_cancel"
+		android:id="@+id/item3"></item>
+
+	<item android:title="Gallery" android:icon="@drawable/ic_menu_gallery"
+		android:id="@+id/item4"></item>
+
+
+
+</menu>

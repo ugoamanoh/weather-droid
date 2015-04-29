@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+		android:background="@drawable/title" android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true" android:id="@+id/title"></ImageView>
+	<TextView android:text="TextView" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_toLeftOf="@+id/title"
+		android:id="@+id/textView6" android:layout_alignTop="@+id/title"
+		android:layout_alignBottom="@+id/title"></TextView>
+	<LinearLayout android:layout_alignParentLeft="true"
+		android:layout_height="wrap_content" android:id="@+id/linearLayout1"
+		android:layout_below="@+id/title" android:layout_alignParentRight="true"
+		android:layout_width="fill_parent" android:orientation="horizontal">
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:text="City:"
+			android:paddingLeft="2dp" android:layout_weight="0.96"
+			android:textColor="#ccf" android:textStyle="bold" android:id="@+id/city"></TextView>
+		<TextView android:layout_height="wrap_content" android:text="Updated:"
+			android:layout_width="fill_parent" android:paddingLeft="2dp"
+			android:layout_weight="0.88" android:textStyle="bold"
+			android:textColor="#ccf" android:id="@+id/date"></TextView>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_alignParentLeft="true" android:layout_height="wrap_content"
+		android:id="@+id/linearLayout6" android:layout_below="@+id/linearLayout1"
+		android:layout_alignParentRight="true" android:layout_above="@+id/linearLayout2">
+		<ImageView android:id="@+id/imageView1"
+			android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+	</LinearLayout>
+	<LinearLayout android:layout_alignParentLeft="true"
+		android:id="@+id/linearLayout2" android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true" android:layout_width="fill_parent" android:layout_height="97dp">
+		<HorizontalScrollView android:id="@+id/HorizontalScrollView01"
+			android:layout_height="fill_parent" android:layout_width="wrap_content">
+			<LinearLayout android:id="@+id/LinearLayout02"
+				android:orientation="horizontal" android:layout_height="fill_parent"
+				android:layout_width="fill_parent">
+
+
+
+				<LinearLayout android:id="@+id/linearLayout3"
+					android:layout_height="fill_parent" android:orientation="horizontal"
+					android:layout_weight="0.9" android:layout_width="fill_parent">
+					<LinearLayout android:id="@+id/linearLayout4"
+						android:layout_height="fill_parent" android:orientation="vertical"
+						android:layout_width="196dp">
+						<TextView android:id="@+id/textView2"
+							android:layout_width="fill_parent" android:textStyle="bold"
+							android:gravity="center" android:layout_height="fill_parent" android:layout_weight="1"
+							android:background="@drawable/hhh" android:textColor="#008"
+							android:textSize="13dp" android:text="NOW"></TextView>
+
+						<LinearLayout android:id="@+id/linearLayout4"
+							android:layout_height="fill_parent" android:layout_width="fill_parent"
+							android:orientation="vertical" android:layout_weight="0.25"
+							android:background="@drawable/textt">
+							<LinearLayout android:id="@+id/linearLayout4"
+								android:layout_height="fill_parent" android:layout_width="fill_parent"
+								android:orientation="horizontal" android:layout_marginRight="1dp"
+								android:layout_marginLeft="1dp" android:layout_weight="1"
+								android:layout_marginTop="0.5dp" android:layout_marginBottom="0.5dp">
+
+								<TextView android:layout_width="fill_parent"
+									android:gravity="center_vertical" android:paddingLeft="4dp"
+									android:textStyle="bold" android:layout_height="fill_parent"
+									android:layout_weight="1" android:textColor="#ccf" android:id="@+id/condition"
+									android:typeface="normal"></TextView>
+							</LinearLayout>
+							<LinearLayout android:id="@+id/linearLayout4"
+								android:layout_height="fill_parent" android:layout_width="fill_parent"
+								android:orientation="horizontal" android:layout_weight="1">
+								<TextView android:textStyle="bold"
+									android:layout_height="fill_parent" android:textColor="#ccf"
+									android:id="@+id/temp" android:layout_width="fill_parent"
+									android:gravity="center_vertical" android:paddingLeft="3dp"
+									android:layout_weight="0.8" android:typeface="normal"></TextView>
+							</LinearLayout>
+
+							<LinearLayout android:id="@+id/linearLayout4"
+								android:layout_height="fill_parent" android:layout_width="fill_parent"
+								android:orientation="horizontal" android:layout_weight="1">
+
+								<TextView android:layout_width="fill_parent"
+									android:gravity="center_vertical" android:paddingLeft="4dp"
+									android:textStyle="bold" android:layout_height="fill_parent"
+									android:layout_weight="1" android:textColor="#ccf" android:id="@+id/humidity"></TextView>
+							</LinearLayout>
+
+							<LinearLayout android:id="@+id/linearLayout4"
+								android:layout_height="fill_parent" android:layout_width="fill_parent"
+								android:orientation="horizontal" android:layout_weight="1">
+
+								<TextView android:layout_width="fill_parent"
+									android:gravity="center_vertical" android:paddingLeft="4dp"
+									android:textStyle="bold" android:layout_height="fill_parent"
+									android:layout_weight="1" android:textColor="#ccf" android:id="@+id/wind"></TextView>
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout android:orientation="horizontal"
+						android:layout_height="wrap_content" android:layout_width="fill_parent">
+						<LinearLayout android:layout_height="fill_parent"
+							android:orientation="vertical" android:layout_width="120dp"
+							android:id="@+id/Tomorrow" android:layout_marginLeft="0.1dp">
+							<TextView android:textStyle="bold" android:id="@+id/textView7" android:gravity="center"
+								android:layout_width="fill_parent" android:layout_weight="1"
+								android:layout_height="fill_parent" android:textColorLink="#000"
+								android:shadowColor="#000" android:background="@drawable/text"
+								android:textColor="#ccf" android:textSize="13dp" android:text="LATER"></TextView>
+							<TextView android:layout_height="fill_parent"
+								android:layout_width="fill_parent" android:textStyle="bold"
+								android:background="@drawable/hhh" android:layout_weight="1"
+								android:textColor="#008" android:id="@+id/next_day_condition"
+								android:gravity="center"></TextView>
+							<LinearLayout android:id="@+id/linearLayout5"
+								android:layout_height="fill_parent" android:layout_width="fill_parent"
+								android:orientation="horizontal" android:layout_weight="0.5">
+
+								<LinearLayout android:id="@+id/linearLayout5"
+									android:layout_height="fill_parent" android:layout_width="fill_parent"
+									android:orientation="vertical" android:layout_weight="0.75">
+
+									<ImageView android:layout_height="fill_parent"
+										android:layout_width="fill_parent" android:layout_weight="0.35"
+										android:background="@drawable/hhh" android:id="@+id/condition_img"
+										android:padding="3dp"></ImageView>
+								</LinearLayout>
+								<LinearLayout android:id="@+id/linearLayout5"
+									android:layout_height="fill_parent" android:layout_width="fill_parent"
+									android:orientation="vertical" android:layout_weight="1">
+									<TextView android:id="@+id/textView8"
+										android:layout_height="fill_parent" android:layout_width="fill_parent"
+										android:textStyle="bold" android:gravity="center"
+										android:background="@drawable/hhh" android:layout_weight="1"
+										android:textColor="#008" android:text="LOW" android:textSize="12dp"
+										android:layout_marginRight="0.1dp"></TextView>
+									<TextView android:layout_height="fill_parent"
+										android:layout_width="fill_parent" android:textStyle="bold"
+										android:gravity="center" android:background="@drawable/hhh"
+										android:textColor="#008" android:layout_weight="0.35"
+										android:id="@+id/lowtemp" android:textSize="24dp"
+										android:layout_margin="0.5dp"></TextView>
+								</LinearLayout>
+								<LinearLayout android:id="@+id/linearLayout5"
+									android:layout_height="fill_parent" android:layout_width="fill_parent"
+									android:orientation="vertical" android:layout_weight="1">
+									<TextView android:id="@+id/textView8"
+										android:layout_height="fill_parent" android:layout_width="fill_parent"
+										android:textStyle="bold" android:gravity="center"
+										android:background="@drawable/hhh" android:layout_weight="1"
+										android:textColor="#008" android:text="HIGH" android:textSize="12dp"></TextView>
+									<TextView android:layout_height="fill_parent"
+										android:layout_width="fill_parent" android:textStyle="bold"
+										android:gravity="center" android:background="@drawable/hhh"
+										android:textColor="#008" android:layout_weight="0.35"
+										android:id="@+id/hightemp" android:textSize="24dp"
+										android:layout_marginBottom="0.1dp" android:layout_marginTop="0.1dp"></TextView>
+								</LinearLayout>
+							</LinearLayout>
+						</LinearLayout>
+
+						<LinearLayout android:layout_height="fill_parent"
+							android:orientation="vertical" android:layout_width="120dp"
+							android:id="@+id/Tomorrow" android:layout_marginLeft="0.1dp">
+							<TextView android:textStyle="bold" android:gravity="center"
+								android:layout_width="fill_parent" android:layout_weight="1"
+								android:layout_height="fill_parent" android:textColorLink="#000"
+								android:shadowColor="#000" android:background="@drawable/text"
+								android:textColor="#ccf" android:textSize="13dp" android:id="@+id/day3"></TextView>
+							<TextView android:layout_height="fill_parent"
+								android:layout_width="fill_parent" android:textStyle="bold"
+								android:background="@drawable/hhh" android:layout_weight="1"
+								android:textColor="#008" android:gravity="center" android:id="@+id/day3_condition"></TextView>
+							<LinearLayout android:id="@+id/linearLayout5"
+								android:layout_height="fill_parent" android:layout_width="fill_parent"
+								android:orientation="horizontal" android:layout_weight="0.5">
+
+								<LinearLayout android:id="@+id/linearLayout5"
+									android:layout_height="fill_parent" android:layout_width="fill_parent"
+									android:orientation="vertical" android:layout_weight="0.75">
+
+									<ImageView android:layout_height="fill_parent"
+										android:layout_width="fill_parent" android:layout_weight="0.35"
+										android:background="@drawable/hhh" android:padding="3dp"
+										android:id="@+id/day3_condition_img"></ImageView>
+								</LinearLayout>
+								<LinearLayout android:id="@+id/linearLayout5"
+									android:layout_height="fill_parent" android:layout_width="fill_parent"
+									android:orientation="vertical" android:layout_weight="1">
+									<TextView android:id="@+id/textView8"
+										android:layout_height="fill_parent" android:layout_width="fill_parent"
+										android:textStyle="bold" android:gravity="center"
+										android:background="@drawable/hhh" android:layout_weight="1"
+										android:textColor="#008" android:text="LOW" android:textSize="12dp"
+										android:layout_marginRight="0.1dp"></TextView>
+									<TextView android:layout_height="fill_parent"
+										android:layout_width="fill_parent" android:textStyle="bold"
+										android:gravity="center" android:background="@drawable/hhh"
+										android:textColor="#008" android:layout_weight="0.35"
+										android:textSize="24dp" android:layout_margin="0.5dp"
+										android:id="@+id/day3_lowtemp"></TextView>
+								</LinearLayout>
+								<LinearLayout android:id="@+id/linearLayout5"
+									android:layout_height="fill_parent" android:layout_width="fill_parent"
+									android:orientation="vertical" android:layout_weight="1">
+									<TextView android:id="@+id/textView8"
+										android:layout_height="fill_parent" android:layout_width="fill_parent"
+										android:textStyle="bold" android:gravity="center"
+										android:background="@drawable/hhh" android:layout_weight="1"
+										android:textColor="#008" android:text="HIGH" android:textSize="12dp"></TextView>
+									<TextView android:layout_height="fill_parent"
+										android:layout_width="fill_parent" android:textStyle="bold"
+										android:gravity="center" android:background="@drawable/hhh"
+										android:textColor="#008" android:layout_weight="0.35"
+										android:textSize="24dp" android:layout_marginBottom="0.1dp"
+										android:layout_marginTop="0.1dp" android:id="@+id/day3_hightemp"></TextView>
+								</LinearLayout>
+							</LinearLayout>
+
+
+						</LinearLayout>
+
+						<LinearLayout android:layout_height="fill_parent"
+							android:orientation="vertical" android:layout_width="120dp"
+							android:id="@+id/Tomorrow" android:layout_marginLeft="0.1dp">
+							<TextView android:textStyle="bold" android:gravity="center"
+								android:layout_width="fill_parent" android:layout_weight="1"
+								android:layout_height="fill_parent" android:textColorLink="#000"
+								android:shadowColor="#000" android:background="@drawable/text"
+								android:textColor="#ccf" android:textSize="13dp" android:id="@+id/day4"></TextView>
+							<TextView android:layout_height="fill_parent"
+								android:layout_width="fill_parent" android:textStyle="bold"
+								android:background="@drawable/hhh" android:layout_weight="1"
+								android:textColor="#008" android:gravity="center" android:id="@+id/day4_condition"></TextView>
+							<LinearLayout android:id="@+id/linearLayout5"
+								android:layout_height="fill_parent" android:layout_width="fill_parent"
+								android:orientation="horizontal" android:layout_weight="0.5">
+
+								<LinearLayout android:id="@+id/linearLayout5"
+									android:layout_height="fill_parent" android:layout_width="fill_parent"
+									android:orientation="vertical" android:layout_weight="0.75">
+
+									<ImageView android:layout_height="fill_parent"
+										android:layout_width="fill_parent" android:layout_weight="0.35"
+										android:background="@drawable/hhh" android:padding="3dp"
+										android:id="@+id/day4_condition_img"></ImageView>
+								</LinearLayout>
+								<LinearLayout android:id="@+id/linearLayout5"
+									android:layout_height="fill_parent" android:layout_width="fill_parent"
+									android:orientation="vertical" android:layout_weight="1">
+									<TextView android:id="@+id/textView8"
+										android:layout_height="fill_parent" android:layout_width="fill_parent"
+										android:textStyle="bold" android:gravity="center"
+										android:background="@drawable/hhh" android:layout_weight="1"
+										android:textColor="#008" android:text="LOW" android:textSize="12dp"
+										android:layout_marginRight="0.1dp"></TextView>
+									<TextView android:layout_height="fill_parent"
+										android:layout_width="fill_parent" android:textStyle="bold"
+										android:gravity="center" android:background="@drawable/hhh"
+										android:textColor="#008" android:layout_weight="0.35"
+										android:textSize="24dp" android:layout_margin="0.5dp"
+										android:id="@+id/day4_lowtemp"></TextView>
+								</LinearLayout>
+								<LinearLayout android:id="@+id/linearLayout5"
+									android:layout_height="fill_parent" android:layout_width="fill_parent"
+									android:orientation="vertical" android:layout_weight="1">
+									<TextView android:id="@+id/textView8"
+										android:layout_height="fill_parent" android:layout_width="fill_parent"
+										android:textStyle="bold" android:gravity="center"
+										android:background="@drawable/hhh" android:layout_weight="1"
+										android:textColor="#008" android:text="HIGH" android:textSize="12dp"></TextView>
+									<TextView android:layout_height="fill_parent"
+										android:layout_width="fill_parent" android:textStyle="bold"
+										android:gravity="center" android:background="@drawable/hhh"
+										android:textColor="#008" android:layout_weight="0.35"
+										android:textSize="24dp" android:layout_marginBottom="0.1dp"
+										android:layout_marginTop="0.1dp" android:id="@+id/day4_hightemp"></TextView>
+								</LinearLayout>
+							</LinearLayout>
+						</LinearLayout>
+
+						<LinearLayout android:layout_height="fill_parent"
+							android:orientation="vertical" android:layout_width="120dp"
+							android:id="@+id/Tomorrow" android:layout_marginLeft="0.1dp">
+							<TextView android:textStyle="bold" android:gravity="center"
+								android:layout_width="fill_parent" android:layout_weight="1"
+								android:layout_height="fill_parent" android:textColorLink="#000"
+								android:shadowColor="#000" android:background="@drawable/text"
+								android:textColor="#ccf" android:textSize="13dp" android:id="@+id/day5"></TextView>
+							<TextView android:layout_height="fill_parent"
+								android:layout_width="fill_parent" android:textStyle="bold"
+								android:background="@drawable/hhh" android:layout_weight="1"
+								android:textColor="#008" android:gravity="center" android:id="@+id/day5_condition"></TextView>
+							<LinearLayout android:id="@+id/linearLayout5"
+								android:layout_height="fill_parent" android:layout_width="fill_parent"
+								android:orientation="horizontal" android:layout_weight="0.5">
+
+								<LinearLayout android:id="@+id/linearLayout5"
+									android:layout_height="fill_parent" android:layout_width="fill_parent"
+									android:orientation="vertical" android:layout_weight="0.75">
+
+									<ImageView android:layout_height="fill_parent"
+										android:layout_width="fill_parent" android:layout_weight="0.35"
+										android:background="@drawable/hhh" android:padding="3dp"
+										android:id="@+id/day5_condition_img"></ImageView>
+								</LinearLayout>
+								<LinearLayout android:id="@+id/linearLayout5"
+									android:layout_height="fill_parent" android:layout_width="fill_parent"
+									android:orientation="vertical" android:layout_weight="1">
+									<TextView android:id="@+id/textView8"
+										android:layout_height="fill_parent" android:layout_width="fill_parent"
+										android:textStyle="bold" android:gravity="center"
+										android:background="@drawable/hhh" android:layout_weight="1"
+										android:textColor="#008" android:text="LOW" android:textSize="12dp"
+										android:layout_marginRight="0.1dp"></TextView>
+									<TextView android:layout_height="fill_parent"
+										android:layout_width="fill_parent" android:textStyle="bold"
+										android:gravity="center" android:background="@drawable/hhh"
+										android:textColor="#008" android:layout_weight="0.35"
+										android:textSize="24dp" android:layout_margin="0.5dp"
+										android:id="@+id/day5_lowtemp"></TextView>
+								</LinearLayout>
+								<LinearLayout android:id="@+id/linearLayout5"
+									android:layout_height="fill_parent" android:layout_width="fill_parent"
+									android:orientation="vertical" android:layout_weight="1">
+									<TextView android:id="@+id/textView8"
+										android:layout_height="fill_parent" android:layout_width="fill_parent"
+										android:textStyle="bold" android:gravity="center"
+										android:background="@drawable/hhh" android:layout_weight="1"
+										android:textColor="#008" android:text="HIGH" android:textSize="12dp"></TextView>
+									<TextView android:layout_height="fill_parent"
+										android:layout_width="fill_parent" android:textStyle="bold"
+										android:gravity="center" android:background="@drawable/hhh"
+										android:textColor="#008" android:layout_weight="0.35"
+										android:textSize="24dp" android:layout_marginBottom="0.1dp"
+										android:layout_marginTop="0.1dp" android:id="@+id/day5_hightemp"></TextView>
+								</LinearLayout>
+							</LinearLayout>
+
+
+						</LinearLayout>
+					</LinearLayout>
+
+				</LinearLayout>
+
+
+
+			</LinearLayout>
+		</HorizontalScrollView>
+
+
+	</LinearLayout>
+
+
+</RelativeLayout>

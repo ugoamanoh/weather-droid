@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, weatherDroid!</string>
+    <string name="app_name">Weather Droid</string>
+    
+    
+    
+    <string name="Location" />
+    
+    
+    <string-array name="Unit">
+    	<item>&#0176;C</item>
+        <item>&#0176;F</item>
+    </string-array>
+    
+    <string-array name="TempValues">
+    	<item>C</item>
+        <item>F</item>
+    </string-array>
+    
+    
+</resources>

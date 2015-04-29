@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+  <EditTextPreference
+                        android:title="Location"
+                        android:summary="Enter A City Name"
+                        android:key="location"
+                         />
+  
+ <ListPreference
+                        android:title="Unit"
+                        android:summary="Select A Temperature Unit"
+                        android:key="unit"
+                        android:entries="@array/Unit"
+                        android:entryValues="@array/TempValues" />
+  
+</PreferenceScreen>

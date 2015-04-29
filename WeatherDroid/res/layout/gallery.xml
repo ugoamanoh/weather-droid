@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical">
+	<TextView android:id="@+id/textView1" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center"
+		android:text="Weather Droid Wallpaper Gallery" android:textStyle="bold"
+		android:textSize="16dp"></TextView>
+	<ImageView android:id="@+id/ImageView01"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"/>
+		<Gallery xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/examplegallery" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+		<Button android:id="@+id/button1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Set As Wallpaper" android:textStyle="bold"></Button>
+</LinearLayout>
